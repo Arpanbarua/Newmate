@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:lightblue;
+  
+}
+.top-container{
+   
+    height: 300px;
+    width: 300px;
+    
+    /*margin: 0 auto; */
+    border: solid;
+    border-width: 0px 10px 20px 2px;
+}
+.mid-container{
+   
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    /*margin: 0 auto; */
+    border: solid;
+    margin-left: 8.2cm;
+    border-width: 0px 10px 20px 2px;
+}
+.bottom-container{
+   
+    height: 300px;
+    width: 300px;
+    background-color: lightpink;
+    /*margin: 0 auto; */
+    border: solid;
+    margin-left: 16.3cm;
+    border-width: 0px 10px 20px 2px;
+}
+h1{
+    font-family: 'Papyrus';
+    text-align: center;
+    font-size: 50px;
+    color: teal;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: teal;
+}
