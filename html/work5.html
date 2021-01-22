@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💗 Document</title>
+    <title> Document</title>
     <link rel="stylesheet" href="../css/work5.css">
+    <link rel="icon" href="/Newmate/Newmate/images/ak.ico">
     <script src="../js/work5.js"></script>
 
 </head>
@@ -26,7 +27,7 @@
     </tr>
   </table>
   
-  <hr size="3" noshade>
+  <hr >
 
   <h3>Learnings</h3>
   <ul>
@@ -36,7 +37,7 @@
 
 
   </ul>
-  <hr size="3" noshade>
+  <hr >
   <h3>Education :</h3>
   <!--
   <table>
@@ -140,8 +141,71 @@
   </tr>
 </table>
 
+<input type="checkbox" id="expand-toggle">
+<table>
+  <thead>
+    <th>Column #1</th>
+    <th>Column #2</th>
+    <th>Column #3</th>
 
+  </thead>
+  <tbody>
+    <tr id="expandable"><td>more text</td><td>more text</td><td>more text</td></tr>
+    <tr><td>[more text]</td><td>[more text]</td><td>[more text]</td></tr>
+    <tr><td>[more text]</td><td>[more text]</td><td>[more text]</td></tr>
+    <tr><td>[more text]</td><td>[more text]</td><td>[more text]</td></tr>
+    <tr id="expandable"><td>more text</td><td>more text</td><td>more text</td></tr>
+    <tr id="expandable"><td>more text</td><td>more text</td><td>more text</td></tr>
+
+
+  </tbody>
+</table>
+
+
+<label for="expand-toggle" id="expand-btn">Toggle hidden rows</label>
+<br>
+
+<div>
+  <input type="radio" name="opt" id="yes">
+  <label for="yes">Yes</label>
+
+  <input type="radio" name="opt" id="no">
+  <label for="no">No</label>
+
+</div>
+<div>
+  <input type="checkbox" name="check" id="checkme">
+  <label for="checkme">Check Me!</label>
+</div>
+
+<select name="select" id="fruit">
+  <option value="mango">Mango</option>
+  <option value="orange">Orange</option>
+  <option value="guava">Guava</option>
+
+</select>
+<br>
+<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/broccoli_1f966.png" alt="broccoli image" class="circular" >
+<div>
+  <p class="p1" contenteditable>first page</p>
+  <p>Second page</p>
+</div>
+<div>
+  <h4>Hi there</h4>
+  <p>Click me</p>
+</div>
+
+<article>
+  <div>This `div` is first!</div>
+  <div>This <span>nested `span` is first</span>!</div>
+  <div>This <em>nested `em` is first</em>, but this <em>nested `em` is last</em>!</div>
+  <div>This <span>nested `span` gets styled</span>!</div>
+  <b>This `b` qualifies!</b>
+  <div>This is the final `div`.</div>
+</article>
+
+<input type="number" class="foci" max="10" min="2" value="4" title="value must be between 1-10">
   <a href="work4.html">Want to submit a form?</a>
-  <p></p>
+  <p class="p2"> how are u</p>
 </body>
 </html>

@@ -1,3 +1,96 @@
 body{
-    background-color: powderblue;
+    background-color: #cae4db;
+}
+hr{
+ 
+    border-style: none;
+    border-top-style: dotted;
+    width: 90px;
+    height: 0px ;
+    border-width: 5px;
+    border-color: gray;
+}
+
+#expand-toggle{
+    display:none;
+}
+
+#expand-toggle:checked ~* #expandable{
+    visibility: visible;
+}
+
+#expand-toggle:checked ~* #expand-btn{
+    visibility: visible;
+}
+
+#expandable{
+    visibility: collapse;
+    color:red;
+}
+
+#expand-btn{
+    border: 1px solid teal;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    padding: 5px 11px;
+    margin-top: 0.4cm;
+    display: inline-block;
+}
+
+div,select{
+    margin: 8px;
+}
+
+input[type="radio"]:checked
+{
+    box-shadow: 0 0 0 3px rebeccapurple;
+}
+
+input[type="checkbox"]:checked
+{
+    box-shadow: 0 0 0 3px yellow;
+}
+
+input:checked + label {
+    color:red;
+}
+
+option:checked{
+    color:darkcyan;
+    box-shadow: 0 0 0 7px aquamarine;
+}
+
+.circular{
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+
+.circular:hover{
+    border-color: black;
+    border: 4px dotted;
+}
+
+
+.foci:focus-visible{
+    background-color: whitesmoke;
+    color: lawngreen;
+    outline: 5px dotted blue;
+}
+
+
+input:in-range{
+    background-color: yellow;
+}
+
+input:out-of-range{
+    background-color: rgb(255, 174, 0);
+}
+.p1:read-write{
+   border: 1px solid blueviolet;
+   color:cornflowerblue;
+   background-color:darkgreen;
+
+}
+.p2{
+    font-variant: small-caps;
 }
