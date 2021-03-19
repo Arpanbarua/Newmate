@@ -9,40 +9,98 @@ body{
 .top-container{
    
     height: 300px;
-    width: 300px;
+    width: 100%;
     
     /*margin: 0 auto; */
-    border: solid;
-    border-width: 0px 10px 20px 2px;
+    
+    
 }
+.heading2{
+    
+    font-size: 50px;
+    color: teal;
+    font-family: 'Papyrus';
+    margin-left: 17.5cm; 
+   font-weight: 100;
+}
+.cloud1{
+    margin-left: 27cm;
+    margin-top: 1.5cm;
+    
+}
+.cloud2{
+    margin-left: 12cm;
+    margin-top: 1cm;
+}
+.des{
+    text-decoration: underline;
+}
+
+
 .mid-container{
    
     height: 300px;
     width: 300px;
     background-color: yellow;
-    /*margin: 0 auto; */
-    border: solid;
-    margin-left: 8.2cm;
-    border-width: 0px 10px 20px 2px;
+    /* margin: 0 auto; */
+    
+   
+    
+    display: inline-block;
 }
+
+
+
 .bottom-container{
    
+height: 300px;
+   
+width: 300px;
+   
+background-color: blue;
+   
+/*margin: 0 auto; */
+   
+position: absolut;
+   
+top: 600px;
+   
+display: inline-block;
+}
+
+.container4{
     height: 300px;
     width: 300px;
-    background-color: lightpink;
-    /*margin: 0 auto; */
-    border: solid;
-    margin-left: 16.3cm;
-    border-width: 0px 10px 20px 2px;
+    background-color:red;
+    display: inline-block;
+    
+    position: absolute;
+    top: 900px;
+    left: 600px;
+    
+}
+.moun{
+    position: relative;     top: 20px;
+    left: 600px;
+    height: 300px;
+    width: 400px;
+    opacity: 0.5; 
 }
 h1{
+    font-size: 60px;
+    color: teal;
     font-family: 'Papyrus';
     text-align: center;
-    font-size: 50px;
-    color: teal;
+    display: inline;
+    margin-left: 17.5cm;
+    position: fixed;
 }
-p{
+.para{
     text-align: center;
     font-size: 18px;
     color: teal;
+    display: inline-block ;
+   margin-left: 19.3cm;
+   margin-top: 2cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
