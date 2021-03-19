@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-container{
+    background-color: red;
+    height: 300px;
+    width: 350px;   
+   
+    display:inline-block;
+    
+}
+
+.mid-container{
+    background-color: yellow;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    display: inline-block;
+}
+
+.bottom-container{
+    background-color: blue;
+    height: 300px;
+    width: 485px;
+    display: inline-block;
+    position: absolute;
+   left:27.8cm;
+}
+
+.mountain{
+    height:300px;
+    width: 300px;
+}
+.pro{
+    text-decoration: underline;
+}
+
+.sec-container{
+    background-color: yellowgreen;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 300px;
+}
+.secsec-container{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 200px;
+}
